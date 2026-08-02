@@ -1,0 +1,5 @@
+app:
+  cors:
+    allowed-origins:
+      - "*"
+    allow-credentials: false
