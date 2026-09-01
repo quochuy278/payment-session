@@ -32,7 +32,8 @@ checkout and its payment session.
 - [x] PostgreSQL, Flyway, and jOOQ dependencies are configured.
 - [x] Local Supabase credentials remain outside Git.
 - [x] Flyway connects through the Supabase session pooler.
-- [ ] Domain requirements and invariants are documented.
+- [x] Domain requirements and invariants are documented in
+  [`ADR-001`](../decisions/ADR-001-payment-correctness-boundary.md).
 - [ ] The initial migration is applied to the `payment` schema.
 - [ ] jOOQ generated types compile from the migrated schema.
 - [ ] Create and get use cases work through the HTTP API.

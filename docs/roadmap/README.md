@@ -3,6 +3,9 @@
 This directory is the source of truth for project scope and milestone progress.
 It tracks learning outcomes and executable evidence rather than feature count.
 
+Accepted architectural decisions are indexed in
+[`../decisions/README.md`](../decisions/README.md).
+
 ## Product statement
 
 Build a backend that keeps a checkout financially correct when clients retry,
