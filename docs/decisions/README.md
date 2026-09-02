@@ -12,3 +12,4 @@ invalidates their assumptions.
 | ID | Decision | Status |
 | --- | --- | --- |
 | [ADR-001](ADR-001-payment-correctness-boundary.md) | Define the payment correctness boundary and business invariants | Accepted |
+| [ADR-002](ADR-002-jooq-code-generation-from-postgresql.md) | Generate jOOQ types from PostgreSQL | Accepted |

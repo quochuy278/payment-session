@@ -2,7 +2,7 @@ package io.github.quochuy278.paymentsession.checkout.application
 
 import io.github.quochuy278.paymentsession.checkout.domain.Checkout
 import io.github.quochuy278.paymentsession.shared.domain.Money
-import io.github.quochuy278.paymentsession.shared.id.IdGenerator
+import io.github.quochuy278.paymentsession.shared.utils.IdGenerator
 import java.time.Clock
 
 class CreateCheckout(
