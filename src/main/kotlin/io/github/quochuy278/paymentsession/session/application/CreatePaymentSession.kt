@@ -8,6 +8,7 @@ import io.github.quochuy278.paymentsession.session.domain.PaymentSession
 import io.github.quochuy278.paymentsession.session.domain.PaymentSessionStatus
 import io.github.quochuy278.paymentsession.shared.domain.Money
 import io.github.quochuy278.paymentsession.shared.utils.IdGenerator
+import org.springframework.transaction.annotation.Transactional
 import java.time.Clock
 
 class CreatePaymentSession(
@@ -16,6 +17,7 @@ class CreatePaymentSession(
     private val idGenerator: IdGenerator,
     private val clock: Clock,
 ) {
+    @Transactional
     fun execute(
         checkoutId: String,
         psp: String,
